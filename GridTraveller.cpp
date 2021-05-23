@@ -22,6 +22,10 @@ int GridTraveller(int m, int n){
 
 }
 
+Time Complexity (2^m+n)
+Space Complexity (n+m)
+
+
 int main() {
     cout << GridTraveller(2,3)<<endl;
     cout << GridTraveller(3,3)<<endl;
